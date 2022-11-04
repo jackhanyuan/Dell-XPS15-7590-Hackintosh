@@ -4,7 +4,7 @@
 | :-------- | :----------------------------- | :------------- | :---------------------------- |
 | Processor | Intel Core i7-9750H            | Graphics       | Intel UHD Graphics 630        |
 | Memory    | Crucial DDR4 2666MHz 16GB x 2  | Storage        | WD BLACK SN850 NVMe SSD 2T    |
-| Audio     | Realtek ALC298                | WiFi/Bluetooth | Dell Wireless 1830            |
+| Audio     | Realtek ALC298                 | WiFi/Bluetooth | Dell Wireless 1830            |
 | Display   | Sharp SHP14BA (MWP1T-LQ156M1) <br> 15.6-inch WLED FHD non-touchscreen | Monitor | No |
 
 ### Not Working
@@ -69,7 +69,7 @@ Please open `System Report-Network-Wi-Fi` and check your network interface, if n
 
 ### SN MLB SmUUID and ROM
 
-You can use [*OCAuxiliaryTools*](https://github.com/ic005k/OCAuxiliaryTools) (PI -> Generic) to generate SN, MLB and SmUUID.
+You can use [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools) (PI -> Generic) to generate SN, MLB and SmUUID.
 
 #### SmUUID
 
@@ -77,7 +77,7 @@ Highly recommend you to use  **Windows system UUID** as SmUUID: run  `wmic cspro
 
 #### ROM
 
-Highly recommend you to use the **MAC address of en0** as ROM: run  `$(ifconfig en0 | awk '/ether/{print $2}' | sed -e 's/\://g')` in Mac Terminal.
+Highly recommend you to use the **MAC address of en0** as ROM: run  `ifconfig en0 | awk '/ether/{print $2}' | sed -e 's/\://g'` in Mac Terminal.
 
 ### Font Smoothing
 
@@ -89,7 +89,7 @@ defaults write -g CGFontRenderingFontSmoothingDisabled -bool NO # YES to disable
 
 ## Credits
 
-- [xxxzc](https://github.com/xxxzc) - Providing the most config solutions at [xps15-9570-macos](https://github.com/xxxzc/xps15-9570-macos).
+- [xxxzc](https://github.com/xxxzc) - Reference [xps15-9570-macos](https://github.com/xxxzc/xps15-9570-macos) for most of the config.
 - [acidanthera](https://github.com/acidanthera) - Almost all kexts and drivers.
 - [dortania](https://github.com/dortania/OpenCore-Install-Guide) - OpenCore Install Guide.
 - [daliansky](https://github.com/daliansky) - Hackintosh EFI and installation tutorial.
