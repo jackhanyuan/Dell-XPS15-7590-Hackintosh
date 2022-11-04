@@ -1,12 +1,11 @@
 ## Configuration
 
-| Model     | XPS15-7590 / MacBookPro16,1    | Version        | Ventura 13.0 / OpenCore 0.8.5                |
-| :-------- | :--------------------------- | :------------- | :------------------ |
-| Processor | Intel Core i7-9750H  | Graphics       | Intel UHD Graphics 630    |
-| Memory    | Crucial DDR4 2666MHz 16GB x 2   | Storage        | WD BLACK SN850 NVMe SSD 2T
- |
-| Audio     | Realtek ALC3266               | WiFi/Bluetooth | Dell Wireless 1830  |
-| Display   | Sharp SHP14BA (MWP1T-LQ156M1) 15.6-inch WLED FHD non-touchscreen          | Monitor        | No  |
+| Model     | XPS15-7590 / MacBookPro16,1    | Version        | Ventura 13.0 / OpenCore 0.8.5 |
+| :-------- | :----------------------------- | :------------- | :---------------------------- |
+| Processor | Intel Core i7-9750H            | Graphics       | Intel UHD Graphics 630        |
+| Memory    | Crucial DDR4 2666MHz 16GB x 2  | Storage        | WD BLACK SN850 NVMe SSD 2T    |
+| Audio     | Realtek ALC3266                | WiFi/Bluetooth | Dell Wireless 1830            |
+| Display   | Sharp SHP14BA (MWP1T-LQ156M1) 15.6-inch WLED FHD non-touchscreen | Monitor | No |
 
 ### Not Working
 
