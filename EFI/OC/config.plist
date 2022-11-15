@@ -264,15 +264,6 @@
                     <key>model</key>
                     <string>Cannon Lake PCH USB 3.1 xHCI Host Controller</string>
                 </dict>
-                <key>PciRoot(0x0)/Pci(0x14,0x2)</key>
-                <dict>
-                    <key>AAPL,slot-name</key>
-                    <string>Internal@0,20,2</string>
-                    <key>device_type</key>
-                    <string>Memory controller</string>
-                    <key>model</key>
-                    <string>Cannon Lake PCH Shared SRAM</string>
-                </dict>
                 <key>PciRoot(0x0)/Pci(0x17,0x0)</key>
                 <dict>
                     <key>AAPL,slot-name</key>
@@ -281,6 +272,17 @@
                     <string>SATA controller</string>
                     <key>model</key>
                     <string>Cannon Lake Mobile PCH SATA AHCI Controller</string>
+                </dict>
+                <key>PciRoot(0x0)/Pci(0x1C,0x0)/Pci(0x0,0x0)</key>
+                <dict>
+                    <key>AAPL,slot-name</key>
+                    <string>Internal@0,28,0/0,0</string>
+                    <key>brcmfx-country</key>
+                    <string>#a</string>
+                    <key>device_type</key>
+                    <string>Network controller</string>
+                    <key>model</key>
+                    <string>BCM43602 802.11ac Wireless LAN SoC</string>
                 </dict>
                 <key>PciRoot(0x0)/Pci(0x1C,0x4)/Pci(0x0,0x0)</key>
                 <dict>
@@ -300,27 +302,7 @@
                     <key>model</key>
                     <string>WD PC SN810 / Black SN850 NVMe SSD</string>
                 </dict>
-                <key>PciRoot(0x0)/Pci(0x1F,0x4)</key>
-                <dict>
-                    <key>AAPL,slot-name</key>
-                    <string>Internal@0,31,4</string>
-                    <key>device_type</key>
-                    <string>SMBus</string>
-                    <key>model</key>
-                    <string>Cannon Lake PCH SMBus Controller</string>
-                </dict>
-                <key>PciRoot(0x0)/Pci(0x1c,0x0)/Pci(0x0,0x0)</key>
-                <dict>
-                    <key>AAPL,slot-name</key>
-                    <string>Internal@0,28,0/0,0</string>
-                    <key>brcmfx-country</key>
-                    <string>#a</string>
-                    <key>device_type</key>
-                    <string>Network controller</string>
-                    <key>model</key>
-                    <string>BCM43602 802.11ac Wireless LAN SoC</string>
-                </dict>
-                <key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
+                <key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
                 <dict>
                     <key>AAPL,slot-name</key>
                     <string>Internal@0,31,3</string>
@@ -334,6 +316,15 @@
                     <integer>16</integer>
                     <key>model</key>
                     <string>Realtek ALC298</string>
+                </dict>
+                <key>PciRoot(0x0)/Pci(0x1F,0x4)</key>
+                <dict>
+                    <key>AAPL,slot-name</key>
+                    <string>Internal@0,31,4</string>
+                    <key>device_type</key>
+                    <string>SMBus</string>
+                    <key>model</key>
+                    <string>Cannon Lake PCH SMBus Controller</string>
                 </dict>
                 <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
                 <dict>
@@ -472,7 +463,7 @@
                     <key>BundlePath</key>
                     <string>AppleALC.kext</string>
                     <key>Comment</key>
-                    <string>V1.7.5 | 1.7.2</string>
+                    <string>V1.7.6 | 1.7.2</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -1287,6 +1278,12 @@
                 <integer>0</integer>
                 <key>KeySubsequentDelay</key>
                 <integer>5</integer>
+                <key>PointerDwellClickTimeout</key>
+                <integer>0</integer>
+                <key>PointerDwellDoubleClickTimeout</key>
+                <integer>0</integer>
+                <key>PointerDwellRadius</key>
+                <integer>0</integer>
                 <key>PointerPollMask</key>
                 <integer>-1</integer>
                 <key>PointerPollMax</key>

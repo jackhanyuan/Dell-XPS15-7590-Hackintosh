@@ -1,6 +1,6 @@
 ## Configuration
 
-| Model     | XPS15-7590 / MacBookPro16,1    | Version        | Ventura 13.0 / OpenCore 0.8.5 |
+| Model     | XPS15-7590 / MacBookPro16,1    | Version        | Ventura 13.0.1 / OpenCore 0.8.6 |
 | :-------- | :----------------------------- | :------------- | :---------------------------- |
 | Processor | Intel Core i7-9750H            | Graphics       | Intel UHD Graphics 630        |
 | Memory    | Crucial DDR4 2666MHz 16GB x 2  | Storage        | WD BLACK SN850 NVMe SSD 2T    |
