@@ -1189,8 +1189,12 @@
                 </dict>
                 <key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
                 <dict>
+                    <key>bluetoothExternalDongleFailed</key>
+                    <data>AA==</data>
+                    <key>bluetoothInternalControllerInfo</key>
+                    <data>AAAAAAAAAAAAAAAAAAA=</data>
                     <key>boot-args</key>
-                    <string>darkwake=1 igfxfw=2</string>
+                    <string>darkwake=1 -igfxblt brcmfx-aspm</string>
                     <key>csr-active-config</key>
                     <data>ZwAAAA==</data>
                 </dict>
