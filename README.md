@@ -1,11 +1,11 @@
 ## Configuration
 
-| Model     | XPS15-7590 / MacBookPro16,1    | Version        | Ventura 13.5 / OpenCore 0.9.4 |
+| Model     | XPS15-7590 / MacBookPro16,1    | Version        | Monterey12.6.8 / OpenCore 0.9.4 |
 | :-------- | :----------------------------- | :------------- | :---------------------------- |
 | Processor | Intel Core i7-9750H            | Graphics       | Intel UHD Graphics 630        |
 | Memory    | Crucial DDR4 2666MHz 16GB x 2  | Storage        | WD BLACK SN850 NVMe SSD 2T    |
-| Audio     | Realtek ALC298                 | WiFi/Bluetooth | Dell Wireless 1830            |
-| Display   | Sharp SHP14BA (MWP1T-LQ156M1) <br> 15.6-inch WLED FHD non-touchscreen | Monitor | No |
+| Audio     | Realtek ALC298                 | WiFi/Bluetooth | BCM94360NG M.2 Wifi Card            |
+| Display   | Sharp SHP14BA (MWP1T-LQ156M1) <br> 15.6-inch 3840 x 2160 OLED non-touchscreen | Monitor | No |
 
 ### Not Working
 
@@ -89,6 +89,7 @@ defaults write -g CGFontRenderingFontSmoothingDisabled -bool NO # YES to disable
 
 ## Credits
 
+- Thanks to the enthusiastic `G.` for providing the 4K-OLED version (mail: `basicemailext@protonmail.com`).
 - [xxxzc](https://github.com/xxxzc) - Reference [xps15-9570-macos](https://github.com/xxxzc/xps15-9570-macos) for most of the config.
 - [acidanthera](https://github.com/acidanthera) - Almost all kexts and drivers.
 - [dortania](https://github.com/dortania/OpenCore-Install-Guide) - OpenCore Install Guide.
