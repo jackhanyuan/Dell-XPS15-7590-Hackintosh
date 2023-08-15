@@ -5,7 +5,7 @@
 | Processor | Intel Core i7-9750H            | Graphics       | Intel UHD Graphics 630        |
 | Memory    | Crucial DDR4 2666MHz 16GB x 2  | Storage        | WD BLACK SN850 NVMe SSD 2T    |
 | Audio     | Realtek ALC298                 | WiFi/Bluetooth | BCM94360NG M.2 Wifi Card            |
-| Display   | Sharp SHP14BA (MWP1T-LQ156M1) <br> 15.6-inch 3840 x 2160 OLED non-touchscreen | Monitor | No |
+| Display   | Sharp SHP14BA (MWP1T-LQ156M1) <br> 15.6-inch 3840 x 2160 4K UHD OLED non-touchscreen | Monitor | No |
 
 ### Not Working
 
@@ -38,12 +38,6 @@ setup_var_3 0x789 0x00
 ## Installation
 
 **Please use [the latest release](https://github.com/jackhanyuan/Dell-XPS15-7590-Hackintosh/releases/latest).**
-
-### UHD Display
-
-If your laptop display is 4k, you have to modify your config.plist:
-
-- Find `dpcd-max-link-rate` and change its value to `FAAAAA==`
 
 ## Post Installation
 
