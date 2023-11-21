@@ -1,6 +1,6 @@
 ## Configuration
 
-| Model     | XPS15-7590 / MacBookPro16,1    | Version        | Monterey12.7 / OpenCore 0.9.5 |
+| Model     | XPS15-7590 / MacBookPro16,1    | Version        | Monterey12.7.1 / OpenCore 0.9.6 |
 | :-------- | :----------------------------- | :------------- | :---------------------------- |
 | Processor | Intel Core i7-9750H            | Graphics       | Intel UHD Graphics 630        |
 | Memory    | Crucial DDR4 2666MHz 16GB x 2  | Storage        | WD BLACK SN850 NVMe SSD 2T    |
@@ -11,7 +11,6 @@
 
 - DiscreteGPU
 - Fingerprint
-- Right channel bluetooth audio (can be fixed)
 - Screen sleep
 - Native screen brigthness controls (use "dimmer" for a overlay, it affects dinamica range sadly)
 - Clamshell mode (insomniaX worked at some point, now it doesn't)
@@ -24,7 +23,7 @@ You can use [*OCAuxiliaryTools*](https://github.com/ic005k/OCAuxiliaryTools), a 
 
 ### BIOS
 
-- BIOS version: 1.21.0
+- BIOS version: 1.24.0
 - SATA Mode: AHCI
 
 ### UEFI changes
