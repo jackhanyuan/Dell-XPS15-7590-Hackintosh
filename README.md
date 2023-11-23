@@ -1,6 +1,6 @@
 ## Configuration
 
-| Model     | XPS15-7590 / MacBookPro16,1    | Version        | Ventura 13.6 / OpenCore 0.9.5 |
+| Model     | XPS15-7590 / MacBookPro16,1    | Version        | Ventura 13.6.2 / OpenCore 0.9.6 |
 | :-------- | :----------------------------- | :------------- | :---------------------------- |
 | Processor | Intel Core i7-9750H            | Graphics       | Intel UHD Graphics 630        |
 | Memory    | Crucial DDR4 2666MHz 16GB x 2  | Storage        | WD BLACK SN850 NVMe SSD 2T    |
@@ -21,7 +21,7 @@ You can use [*OCAuxiliaryTools*](https://github.com/ic005k/OCAuxiliaryTools), a 
 
 ### BIOS
 
-- BIOS version: 1.21.0
+- BIOS version: 1.24.0
 - SATA Mode: AHCI
 
 ### UEFI changes
@@ -41,9 +41,7 @@ setup_var_3 0x789 0x00
 
 ### UHD Display
 
-If your laptop display is 4k, you have to modify your config.plist:
-
-- Find `dpcd-max-link-rate` and change its value to `FAAAAA==`
+If your laptop display is 4k-OLED, you can try this EFI [4k-OLED](https://github.com/jackhanyuan/Dell-XPS15-7590-Hackintosh/tree/4k-OLED).
 
 ## Post Installation
 
