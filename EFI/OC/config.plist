@@ -1420,7 +1420,7 @@
                 <key>PointerSupport</key>
                 <false/>
                 <key>PointerSupportMode</key>
-                <string></string>
+                <string>Dell</string>
                 <key>TimerResolution</key>
                 <integer>50000</integer>
             </dict>
