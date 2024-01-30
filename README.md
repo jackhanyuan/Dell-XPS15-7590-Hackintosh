@@ -21,7 +21,7 @@ You can use [*OCAuxiliaryTools*](https://github.com/ic005k/OCAuxiliaryTools), a 
 
 ### BIOS
 
-- BIOS version: 1.24.0
+- BIOS version: 1.25.0 (1.19+ is OK.)
 - SATA Mode: AHCI
 
 ### UEFI changes
