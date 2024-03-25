@@ -1,6 +1,6 @@
 ## Configuration
 
-| Model     | XPS15-7590 / MacBookPro16,1    | Version        | Monterey12.7.2 / OpenCore 0.9.7 |
+| Model     | XPS15-7590 / MacBookPro16,1    | Version        | Monterey12.7.4 / OpenCore 0.9.9 |
 | :-------- | :----------------------------- | :------------- | :---------------------------- |
 | Processor | Intel Core i7-9750H            | Graphics       | Intel UHD Graphics 630        |
 | Memory    | Crucial DDR4 2666MHz 16GB x 2  | Storage        | WD BLACK SN850 NVMe SSD 2T    |
@@ -23,7 +23,7 @@ You can use [*OCAuxiliaryTools*](https://github.com/ic005k/OCAuxiliaryTools), a 
 
 ### BIOS
 
-- BIOS version: 1.24.0
+- BIOS version: 1.27.0 (1.19+ is OK.)
 - SATA Mode: AHCI
 
 ### UEFI changes
